@@ -4,6 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
     let clear = document.querySelector('.clear');
     let equals = document.querySelector('.equal');
   
+
+    
     buttons.forEach(function(button) {
       button.addEventListener('click', function(e) {
         let value = e.target.dataset.num;
