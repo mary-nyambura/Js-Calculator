@@ -8,11 +8,18 @@
   body {
     margin: 0;
     padding: 0;
-    background: rgb(251, 251, 246);
+    background: rgb(106, 106, 101);
     display: flex;
     justify-content: center;
     align-items: center;
     }
+    h1{
+        color: white;
+    }
+    p{
+        color: rgb(247, 245, 242);
+    }
+
     .calculator{
         margin-top: 5%;
         width: 300px;
@@ -21,6 +28,7 @@
         border-radius: 12px;
         background-color: black;
         overflow: hidden;
+        position: relative;
 
     }
     form input{
@@ -51,6 +59,7 @@
     flex-wrap: wrap;
    justify-content: space-between;
    padding: 25px;
+   display: flex;
 
     }
     .clear{
