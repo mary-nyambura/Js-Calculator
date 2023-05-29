@@ -3,9 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let buttons = document.querySelectorAll('.btn');
     let clear = document.querySelector('.clear');
     let equals = document.querySelector('.equal');
-  
-
-    
+   
     buttons.forEach(function(button) {
       button.addEventListener('click', function(e) {
         let value = e.target.dataset.num;
